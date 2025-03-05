@@ -1,0 +1,81 @@
+/* General body and page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #edf8fe; /* Light background color */
+    color: #333; /* Dark text for contrast */
+    text-align: center; /* Center all text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Centered header styling */
+h1 {
+    color: #ffb7c6; /* Soft pink color for the header */
+    margin-top: 50px; /* Top margin for spacing */
+    font-size: 3rem; /* Larger font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for text */
+}
+
+/* Sub-header (h2) styling */
+h2 {
+    color: #ffb7c6; /* Soft pink color for subheadings */
+    font-size: 2rem; /* Slightly smaller than h1 */
+    margin-top: 20px; /* Margin at the top for spacing */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px; /* Set the font size for readability */
+    margin: 20px 0; /* Spacing between paragraphs */
+    max-width: 700px; /* Limit width for readability */
+    margin-left: auto;
+    margin-right: auto; /* Center the paragraph */
+    font-weight: 400; /* Regular font weight */
+    line-height: 1.7; /* Increase line height for better readability */
+    letter-spacing: 0.5px; /* Slightly increased letter spacing */
+}
+
+/* Section link container styling */
+.section-links {
+    margin-top: 30px; /* Add space above */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the links horizontally */
+    flex-wrap: wrap; /* Allow wrapping of links if needed */
+    gap: 30px; /* Add space between the links */
+}
+
+/* Styling for individual links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue color for the links */
+    font-size: 22px; /* Font size for the links */
+    margin: 10px; /* Margin around the links */
+    display: inline-block; /* Make the link block-level */
+    padding: 10px 20px; /* Add padding inside the links */
+    border-radius: 30px; /* Rounded corners */
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-5px); /* Slight movement effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+    background-color: rgba(0, 123, 255, 0.2); /* Darker background on hover */
+}
+
+/* Back link styling */
+.back-link {
+    margin-top: 30px; /* Add space above */
+}
+
+/* Blockquote styling for quotes */
+blockquote {
+    font-style: italic; /* Italic text */
+    margin-left: 10%; /* Add margin for side spacing */
+    margin-right: 10%; /* Add margin for side spacing */
+    line-height: 1.8; /* Increase line height for better readability */
+}
