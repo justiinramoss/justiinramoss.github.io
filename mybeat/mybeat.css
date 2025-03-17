@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #edf8fe;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #ffb7c6;
+}
+
+h2, p {
+    color: #ffb7c6;
+    font-weight: bold;
+}
+
+.music-category {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.audio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.track {
+    background: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.fa-house {
+        float: left;
+        width: fit-content;
+        margin: 10px;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffb6c1;
+        border: 2px solid #ff86a1;
+        border-radius: 25px;
+        text-decoration: none;
+        box-shadow: 2px 4px 6px rgba(255, 182, 193, 0.3);
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+}
+    
+.fa-house:hover {
+        background-color: #ff86a1;
+        transform: scale(1.05);
+        box-shadow: 3px 6px 8px rgba(255, 182, 193, 0.5);
+}
+
+.go-top {
+    display: inline-block;
+    width: fit-content;
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ffb6c1;
+    border: 2px solid #ff86a1;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 2px 4px 6px rgba(255, 182, 193, 0.3);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.go-top:hover {
+    background-color: #ff86a1;
+    transform: scale(1.05);
+    box-shadow: 3px 6px 8px rgba(255, 182, 193, 0.5);
+}
