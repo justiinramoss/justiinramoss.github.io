@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DFEFFF;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #061322;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.nav-main a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+
+.nav-main a:hover {
+    background-color: #033159;
+    transform: translateX(5px);
+    box-shadow: 2px 4px 6px rgba(6, 19, 34, 0.4);
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #061322;
+    margin-left: 250px;
+}
+
+.intro-text {
+    color: #061322;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+p{
+    color: #061322;
+}
+
+.music-category {
+    margin: 20px auto;
+    margin-left: 250px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.audio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.track {
+    background: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+}

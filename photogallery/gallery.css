@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DFEFFF;
+    margin-left: 220px; /* Adjusts for the fixed left navbar */
+}
+
+.nav-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #061322;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.nav-main a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+
+.nav-main a:hover {
+    background-color: #033159;
+    transform: translateX(5px);
+    box-shadow: 2px 4px 6px rgba(6, 19, 34, 0.4);
+}
+
+.gallery-header {
+    padding: 20px;
+    background-color: #DFEFFF;
+    text-align: center;
+}
+
+.gallery-header .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.gallery-header .description-text p {
+    font-size: 18px;
+    color: black;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 20px;
+    margin-left: 50px; 
+}
+
+.gallery {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    border: 5px solid #061322; 
+    margin: 0;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+    background-color: #061322;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
