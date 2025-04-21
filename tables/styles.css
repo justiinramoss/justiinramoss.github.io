@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f7fc;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    border: 1px solid #cbdcec;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dce5f0;
+}
+
+th {
+    background-color: #e3efff;
+    color: #2b4f81;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Invoice Table Specific */
+.invoice-table {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #cbe0ff;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2b4f81;
+}
+
+.invoice-info {
+    background-color: #e6f0fa;
+    font-weight: bold;
+    color: #2b4f81;
+}
+
+.date {
+    text-align: right;
+}
+
+.billing-info {
+    background-color: #f7fbff;
+    vertical-align: top;
+}
+
+.billing-info b {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.column-header {
+    background-color: #d0e5ff;
+    color: #2b4f81;
+    font-weight: bold;
+}
+
+.item-row {
+    background-color: #f9fcff;
+}
+
+.item-staples {
+    background-color: #ffffff;
+}
+
+.bond-paper {
+    background-color: #f9fcff;
+}
+
+.tax-row {
+    background-color: #f0f6ff;
+}
+
+.cost {
+    text-align: right;
+    color: #333;
+}
+
+.subtotal {
+    font-weight: bold;
+    background-color: #f0f6ff;
+}
+
+.grand-total {
+    background-color: #cbe0ff;
+    color: #2b4f81;
+    font-weight: bold;
+}
+
+.grand-total-amount {
+    text-align: right;
+}
+
+/* Form Section */
+h2 {
+    color: #2b4f81;
+    margin-top: 40px;
+}
+
+.form-table tr:nth-child(odd) {
+    background-color: #f7fbff;
+}
+
+.form-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.form-table input[type="text"],
+.form-table select,
+.form-table textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cbdcec;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-table textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.form-table textarea:disabled {
+    background-color: #f2f2f2;
+    color: #777;
+    font-style: italic;
+}
+
+.submit-button {
+    background-color: #2b4f81;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1e3b63;
+}
+
+@media (max-width: 600px) {
+    .invoice-table {
+        font-size: 0.9em;
+    }
+
+    .invoice-table td {
+        padding: 6px 8px;
+    }
+}

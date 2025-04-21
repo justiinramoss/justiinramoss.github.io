@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables and Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table class="invoice-table">
+        <tr>
+          <td colspan="4" class="header">Invoice Tabular data</td>
+        </tr>
+        <tr class="invoice-info">
+          <td colspan="2">Invoice #123456789</td>
+          <td colspan="2" class="date">14 January 2025</td>
+        </tr>
+        <tr class="billing-info">
+          <td colspan="2">
+            <b>Pay to:</b>
+            Acme Billing Co.<br>
+            123 Main St.<br>
+            Cityville, NA 12345
+          </td>
+          <td colspan="2">
+            <b>Customer:</b>
+            John Smith<br>
+            321 Willow Way<br>
+            Southeast Northwestershire, MA 54321
+          </td>
+        </tr>
+        <tr class="column-header">
+          <td>Name / Description</td>
+          <td>Qty.</td>
+          <td>@</td>
+          <td class="cost">Cost</td>
+        </tr>
+        <tr class="item-row">
+          <td>Paperclips</td>
+          <td>1000</td>
+          <td>0.01</td>
+          <td class="cost">10.00</td>
+        </tr>
+        <tr class="item-staples">
+          <td>Staples (box)</td>
+          <td>100</td>
+          <td>1.00</td>
+          <td class="cost">100.00</td>
+        </tr>
+        <tr class="item-row bond-paper">
+          <td>Bond Paper (box)</td>
+          <td>100</td>
+          <td>1.00</td>
+          <td class="cost">110.00</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="subtotal">Subtotal</td>
+          <td class="cost">110.00</td>
+        </tr>
+        <tr class="tax-row">
+          <td colspan="2"><b>Tax</b></td>
+          <td>8%</td>
+          <td class="cost">8.80</td>
+        </tr>
+        <tr class="grand-total">
+          <td colspan="3"><b>Grand Total</b></td>
+          <td class="grand-total-amount">$ 118.80</td>
+        </tr>
+      </table>
+
+
+    <h2>Personal Information Form</h2>
+    <table class="form-table">
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Name:</td>
+                <td><input type="text" placeholder="Type your name here"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex:</td>
+                <td>
+                    <input type="radio" id="male" name="sex" value="male" checked>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="sex" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Eye Color</td>
+                <td>
+                    <select>
+                        <option value="black">black</option>
+                        <option value="blue">blue</option>
+                        <option value="brown">brown</option>
+                        <option value="green">green</option>
+                        <option value="hazel">hazel</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Check all the Applies</td>
+                <td>
+                    <input type="checkbox" id="tall" name="attributes" value="tall">
+                    <label for="tall">Over 6ft. Tall</label><br>
+                    <input type="checkbox" id="over200" name="attributes" value="over200">
+                    <label for="over200">Over 200 pounds</label><br>
+                    <input type="checkbox" id="under200" name="attributes" value="under200">
+                    <label for="under200">Less than 200 pounds</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Describe your athletic ability</td>
+                <td>
+                    <textarea disabled> 
+                        
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button class="submit-button">Enter my Information</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+   
+</body>
+</html>
